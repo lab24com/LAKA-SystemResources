@@ -109,9 +109,7 @@ Después:
 1. Abra **Administración → General → Módulos**.
 2. Pulse **Escanear directorio**.
 3. Habilite o actualice **LAKA SystemResources**.
-4. Recargue completamente el navegador con `Ctrl + F5`.
-
-No es obligatorio asignar el propietario `www-data`; ese usuario normalmente no existe en Rocky Linux. El frontend solo necesita permisos de lectura.
+4. Recargar navegador.
 
 ## Opciones
 
@@ -142,7 +140,6 @@ Si un gráfico no presenta un período antiguo, confirme que la retención de hi
 - El rango máximo por consulta es un año.
 - Los gráficos agregan hasta 900 muestras para evitar respuestas excesivas.
 - El detalle de red y servicios se consulta únicamente al abrir un host.
-- No usa tokens, credenciales externas ni consultas directas a la base de datos.
 
 ## Versión
 
