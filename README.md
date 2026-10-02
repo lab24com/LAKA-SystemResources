@@ -2,9 +2,9 @@
 
 Widget de dashboard que funciona como consola NOC compacta para servidores **Windows y Linux** monitorizados con **Zabbix agent** o **Zabbix agent 2**.
 
-**Desarrollado** por Willian Tola —
-**LAKA Soluciones Tecnológicas**  
-**Contacto:** +591 70806592
+- **Desarrollado** por Willian Tola
+- **LAKA Soluciones Tecnológicas**  
+- **Contacto:** +591 70806592
 
 ## Compatibilidad
 
