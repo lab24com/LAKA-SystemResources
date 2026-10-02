@@ -35,8 +35,6 @@ El idioma se aplica a la consola principal, el detalle del servidor, las pestañ
 - Ordenamiento por salud, servidor, CPU, vCPU, RAM, memoria, disco más ocupado, problemas y uptime.
 - Filtros rápidos por salud, mantenimiento, Windows y Linux, combinables con el buscador.
 
-La salud combina disponibilidad, antigüedad del último dato, problemas activos y umbrales configurados de CPU, RAM y discos. Las unidades pueden evaluarse por espacio libre en GB o por porcentaje utilizado.
-
 ### Alertas visuales de discos
 
 El widget permite elegir entre dos modos:
