@@ -1,0 +1,35 @@
+{
+	"manifest_version": 2.0,
+	"id": "systemresources",
+	"type": "widget",
+	"name": "LAKA SystemResources",
+	"namespace": "SystemResources",
+	"version": "1.0.0",
+	"author": "LAKA Soluciones Tecnológicas",
+	"description": "Consola NOC multilingüe de salud, recursos, problemas y rendimiento para servidores Windows y Linux monitorizados mediante Zabbix agent.",
+	"widget": {
+		"js_class": "CWidgetSystemResources",
+		"size": {
+			"width": 72,
+			"height": 12
+		},
+		"refresh_rate": 60
+	},
+	"actions": {
+		"widget.systemresources.view": {
+			"class": "WidgetView"
+		},
+		"widget.systemresources.history": {
+			"class": "History",
+			"layout": "layout.json"
+		},
+		"widget.systemresources.hostdetails": {
+			"class": "HostDetails",
+			"layout": "layout.json"
+		}
+	},
+	"assets": {
+		"css": ["widget.css"],
+		"js": ["class.widget.js"]
+	}
+}
